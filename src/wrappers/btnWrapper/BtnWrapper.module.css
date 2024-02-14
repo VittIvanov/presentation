@@ -1,0 +1,10 @@
+.button {
+  width: 120px;
+  /* Явно указываем ширину кнопки */
+  background-color: rgba(0, 123, 255, 0.5);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  cursor: pointer;
+}

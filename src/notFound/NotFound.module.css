@@ -1,0 +1,11 @@
+.bodyContainer {
+  height: 85vh;
+  min-height: max-content;
+  margin: 10px 0;
+}
+
+.bodyContainer span {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
