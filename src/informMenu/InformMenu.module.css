@@ -1,3 +1,47 @@
 .inform_list {
   list-style: none;
+  padding: 8px;
+  width: 142px;
+  font-size: 14px;
+  text-align: center;
+  align-self: center;
+  /* border: 2px solid gold;
+  outline-offset: -2px; */
+  border-radius: 8px 0px 0px 8px;
+  background-color: rgba(2, 32, 62, 0.3);
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.inform_list:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.inform_list__closed {
+  padding: 8px;
+  margin: 14px 0;
+  width: 142px;
+  font-size: 14px;
+  text-align: center;
+  align-self: center;
+  border-radius: 8px 0px 0px 8px;
+  background-color: rgba(2, 32, 62, 0.3);
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.inform_list__item {
+  padding: 6px;
+  margin-top: 1px;
+  min-width: 0px;
+  border-bottom: rgba(255, 255, 255, 0.2);
+  border-radius: 8px 0px 0px 8px;
+  background-color: rgba(2, 32, 62, 0.3);
+  color: #000000;
+}
+
+.inform_list__item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
 }
